@@ -1,0 +1,59 @@
+/* Product Card Styles */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .product-image {
+    transition: transform 0.3s ease;
+  }
+  
+  .product-card:hover .product-image {
+    transform: scale(1.05);
+  }
+  
+  .order-button {
+    transition: all 0.3s ease;
+  }
+  
+  .order-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .order-button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Product slide animations */
+  .product-slide {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Smooth scrolling for product showcase */
+  .product-showcase-container {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar for product showcase */
+  .product-showcase-container::-webkit-scrollbar {
+    height: 4px;
+  }
+  
+  .product-showcase-container::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+  }
+  
+  .product-showcase-container::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+  }
+  
+  .product-showcase-container::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }
