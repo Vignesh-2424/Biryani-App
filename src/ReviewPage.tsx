@@ -116,7 +116,7 @@ const Menu: React.FC<MenuProps> = ({ onClose }) => {
 
   return (
     <div 
-      className={`absolute top-0 right-0 w-[427px] h-[360px] overflow-hidden shadow-2xl z-50 ${
+      className={`absolute top-0 right-0 w-[429px] h-[360px] overflow-hidden shadow-2xl z-50 ${
         isClosing ? 'animate-slide-to-right' : 'animate-slide-from-right'
       }`}
       style={{
